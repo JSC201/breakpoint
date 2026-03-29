@@ -1,0 +1,10 @@
+#data
+/JS Data
+
+# misc
+.DS_Store
+
+**/__pycache__/
+*.pyc
+
+.venv
