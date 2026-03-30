@@ -14,9 +14,10 @@ Phase 1: Data
         - May 17 - May 23 [Geneva Open] ATP 250 
         - May 24 - June 7 [Roland-Garros] Grand Slam 
 
-2. clean data 
+2. create clean data table
     - player info
         - player_id 
+        - sackmann_id
         - name 
         - handedness
         - height
@@ -24,8 +25,7 @@ Phase 1: Data
         - DOB
     - match stats 
         - match id
-        - tounrmanet id 
-        - tournament level 
+        - round
         - best_of 
         - date 
         - surface 
@@ -34,6 +34,8 @@ Phase 1: Data
         - groundstrokes stats (if possible)
         - player_1_id
         - player_2_id
+        - player_1_rank
+        - player_2_rank
         - score
         - match duration 
         - winner_id 
