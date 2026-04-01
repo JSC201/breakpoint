@@ -1,10 +1,10 @@
 import pandas as pd
 import glob
 from common.db import engine
+from common.environments import JS_DATA_DIR
 
-all_files = glob.glob("/Users/justinjchang/Desktop/breakpoint/JS Data/*.csv")
 all_players_data = []
-
+all_files = glob.glob(JS_DATA_DIR + "*.csv")
 
 for file_path in all_files:
     df = pd.read_csv (file_path)
